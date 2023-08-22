@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #07b807;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    max-width: 720px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.box-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+main {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#texto {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+h3 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.botao {
+    font-size: 1.1em;
+    background-color: #07b807;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a button {
+    font-size: 1.1em;
+    background-color: #07b807;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a button:hover {
+    background-color: #059605;
+}
+
+
+.box-candidatos {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#votarForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#candidato_1,
+#candidato_2 {
+    width: 200px;
+    border-radius: 100%;
+    cursor: pointer; /* Adicionando cursor de mão para indicar que é clicável */
+    transition: transform 0.2s ease-in-out, outline 0.2s ease-in-out; /* Adicionando uma transição suave */
+}
+
+/* Adicionando efeito de escala e contorno quando a imagem é clicada */
+#candidato_1:hover,
+#candidato_2:hover {
+    transform: scale(1.05);
+}
+
+/* Adicionando contorno quando a imagem está selecionada */
+#candidato_1.selected,
+#candidato_2.selected {
+    outline: 4px solid #07b807;
+}
+
+.andamento {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxBotao {
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+}
