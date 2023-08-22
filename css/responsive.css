@@ -2,4 +2,7 @@
     #candidato_1,#candidato_2 {
         width: 150px;
     } 
+    #vencedor > #candidato_2 {
+        width: 300px;
+    }
 }
