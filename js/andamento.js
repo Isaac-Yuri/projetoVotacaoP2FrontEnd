@@ -1,5 +1,5 @@
 let votosJeander, votosGabriel, total = 0
-fetch("https://projetovotacaop2-nz5qyix2da-tl.a.run.app/andamento")
+fetch("https://projetovotacaop2backend-nz5qyix2da-tl.a.run.app/andamento")
     .then(data => data.json())
     .then(json => {
         votosJeander = json.jeander;

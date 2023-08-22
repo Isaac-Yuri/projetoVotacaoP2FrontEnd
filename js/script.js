@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 candidato_votado: candidatoVotado
             };
 
-            const response = await fetch('https://projetovotacaop2-nz5qyix2da-tl.a.run.app/votar', {
+            const response = await fetch('https://projetovotacaop2backend-nz5qyix2da-tl.a.run.app/votar', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
