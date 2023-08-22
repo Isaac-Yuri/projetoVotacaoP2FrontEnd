@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 body: JSON.stringify(data)
             });
 
-            window.location.pathname = "/projetoVotacaoP2FrontEnd/AndamentoDaVotação.html";
+            window.location.pathname = "/projetoVotacaoP2FrontEnd/votacaoEncerrada.html";
         }
     });
 

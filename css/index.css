@@ -116,3 +116,7 @@ a button:hover {
 a {
     text-decoration: none;
 }
+
+#vencedor > #candidato_2 {
+    width: 300px;
+}
