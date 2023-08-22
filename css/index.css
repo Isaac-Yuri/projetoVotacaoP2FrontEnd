@@ -76,6 +76,7 @@ a button:hover {
     margin: 25px;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 #votarForm {
