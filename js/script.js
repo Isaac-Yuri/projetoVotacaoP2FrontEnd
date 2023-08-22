@@ -34,7 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const response = await fetch('https://projetovotacaop2backend-nz5qyix2da-tl.a.run.app/votar', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    "Access-Control-Allow-Origin": "*"
                 },
                 body: JSON.stringify(data)
             });
