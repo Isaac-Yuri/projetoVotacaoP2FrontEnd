@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+    #candidato_1,#candidato_2 {
+        width: 150px;
+    } 
+}
